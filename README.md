@@ -1,5 +1,9 @@
 # 🛡️ Kavach: AI-Powered Insurance for E-commerce Delivery Partners
 
+<div align="center">
+  <img src="kavach_logo.png" alt="Kavach Logo" width="300"/>
+</div>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Made in India](https://img.shields.io/badge/Made%20in-India-FF9933?style=flat&logoColor=white)](https://github.com/Devansh-407/kavach)
 [![Hackathon](https://img.shields.io/badge/Hackathon-Project-brightgreen)](https://github.com/Devansh-407/kavach)
