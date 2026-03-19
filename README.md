@@ -1,7 +1,7 @@
 # 🛡️ Kavach: AI-Powered Insurance for E-commerce Delivery Partners
 
 <div align="center">
-  <img src="kavach_logo.png" alt="Kavach Logo" width="300"/>
+  <img src="kavach logo.png" alt="Kavach Logo" width="300"/>
 </div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
