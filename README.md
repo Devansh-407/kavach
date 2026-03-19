@@ -575,15 +575,6 @@ cd frontend && npm start
 cd ai-ml-service && python -m uvicorn src.main:app --reload
 ```
 
-### Development Server
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **AI/ML Service**: http://localhost:8001
-- **Database**: localhost:5432
-- **Redis**: localhost:6379
-
----
-
 ## 🎯 Phase 1 Development Roadmap
 
 ### ✅ Week 1-2: Core Foundation
@@ -674,18 +665,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🏆 Awards & Recognition
-
-- **Hackathon Winner**: Best Social Impact Project
-- **TechCrunch Featured**: Innovative Insurtech Solution
-- **Government Recognition**: Supported by Digital India Initiative
-
----
-
 ## 📞 Contact & Support
 
-- **Website**: [kavach.insurance](https://kavach.insurance)
-- **Email**: support@kavach.insurance
 - **GitHub**: [github.com/Devansh-407/kavach](https://github.com/Devansh-407/kavach)
 - **Discord**: [Join our community](https://discord.gg/kavach)
 
