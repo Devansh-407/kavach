@@ -6,7 +6,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Made in India](https://img.shields.io/badge/Made%20in-India-FF9933?style=flat&logoColor=white)](https://github.com/Devansh-407/kavach)
-[![Production Ready](https://img.shields.io/badge/Production-Ready-brightgreen)](https://github.com/Devansh-407/kavach)
 [![Hackathon](https://img.shields.io/badge/Hackathon-Project-brightgreen)](https://github.com/Devansh-407/kavach)
 
 > *"When it rains heavily, I can't deliver. When there's a curfew, I can't deliver. When the app crashes, I can't deliver. Those days, I earn ZERO rupees."* - Rajesh, 28, Amazon Flex delivery partner, Mumbai
@@ -26,7 +25,7 @@ For India's 10+ million e-commerce delivery partners, one bad day means skipping
 
 ## 💡 Our Solution: Kavach
 
-**Kavach** is a comprehensive, production-ready AI-powered parametric insurance platform that automatically compensates e-commerce delivery partners when external disruptions prevent them from working. 
+**Kavach** is an AI-powered parametric insurance platform that automatically compensates e-commerce delivery partners when external disruptions prevent them from working. 
 
 **No paperwork, no manual claims, no delays** — just instant income protection when they need it most.
 
@@ -58,7 +57,7 @@ For India's 10+ million e-commerce delivery partners, one bad day means skipping
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features (Phase 1 - MVP)
 
 ### ⚡ Instant Parametric Payouts
 - **Auto-trigger** within 15 minutes of disruption
@@ -77,7 +76,7 @@ For India's 10+ million e-commerce delivery partners, one bad day means skipping
 - **Digital signature verification** (video/voice biometrics)
 - **GPS location validation**
 - **Pattern recognition AI**
-- **Network analysis for organized fraud**
+- **Network analysis for organized fraud
 - **Multi-Layer Authentication**: JWT, phone verification, biometrics
 
 ### 📱 Mobile-First Design
@@ -89,7 +88,7 @@ For India's 10+ million e-commerce delivery partners, one bad day means skipping
 
 ---
 
-## 📊 Real-World Impact
+## 📊 Real-World Impact (Planned)
 
 ### Scenario 1: Heavy Rain in Mumbai
 ```
@@ -135,52 +134,82 @@ Weekly Cap: ₹1,000 maximum
 
 ---
 
-## 🚀 Technology Stack
+## 🚀 Technology Stack (Phase 1)
 
 ### Frontend (React TypeScript)
-- **React 18** with TypeScript
-- **Redux Toolkit** for state management
-- **Tailwind CSS** for styling
-- **React Router** for navigation
-- **Socket.io Client** for real-time updates
-- **i18next** for multi-language support
-- **Vite** for fast development
+**Why React 18?**
+- ✅ **Component-based architecture** for reusable UI elements
+- ✅ **Large ecosystem** with extensive libraries
+- ✅ **Excellent TypeScript support** for type safety
+- ✅ **React Native compatibility** for future mobile app
+- ✅ **Strong community support** and documentation
+
+**Why Redux Toolkit?**
+- ✅ **Predictable state management** for complex insurance logic
+- ✅ **Time-travel debugging** for claim state issues
+- ✅ **Middleware support** for authentication and logging
+- ✅ **DevTools integration** for development experience
+
+**Why Tailwind CSS?**
+- ✅ **Utility-first CSS** for rapid UI development
+- ✅ **Mobile-responsive design** out of the box
+- ✅ **Customizable themes** for brand consistency
+- ✅ **Small bundle size** for faster load times
 
 ### Backend (Node.js Express)
-- **Node.js 20** with TypeScript
-- **Express.js** REST API
-- **Prisma ORM** with PostgreSQL
-- **Redis** for caching and sessions
-- **Socket.io** for WebSocket connections
-- **Bull Queue** for background jobs
-- **JWT** for authentication
+**Why Node.js 20?**
+- ✅ **Latest LTS version** with long-term support
+- ✅ **Excellent performance** for real-time processing
+- ✅ **Large npm ecosystem** for insurance libraries
+- ✅ **Native TypeScript support** for type safety
+- ✅ **Event-driven architecture** perfect for WebSocket
+
+**Why Express.js?**
+- ✅ **Minimal and flexible** for custom insurance logic
+- ✅ **Extensive middleware** ecosystem
+- ✅ **WebSocket integration** via Socket.io
+- ✅ **Production-proven** with millions of apps
+- ✅ **Easy testing** and debugging
+
+**Why Prisma ORM?**
+- ✅ **Type-safe database access** with TypeScript
+- ✅ **Auto-generated client** reduces boilerplate
+- ✅ **Multi-database support** for future scaling
+- ✅ **Excellent migration system** for schema changes
+- ✅ **Built-in connection pooling** for performance
+
+**Why Redis?**
+- ✅ **In-memory caching** for fast API responses
+- ✅ **Session storage** for user authentication
+- ✅ **Pub/Sub messaging** for real-time updates
+- ✅ **Rate limiting** capabilities
+- ✅ **Excellent Node.js integration**
 
 ### AI/ML Service (Python)
-- **Python 3.11** with FastAPI
-- **TensorFlow** for deep learning
-- **Scikit-learn** for ML models
-- **OpenCV** for image verification
-- **Prophet** for time-series prediction
+**Why Python 3.11?**
+- ✅ **Latest stable version** with performance improvements
+- ✅ **Extensive ML ecosystem** (TensorFlow, scikit-learn)
+- ✅ **FastAPI framework** for high-performance APIs
+- ✅ **Excellent data science libraries** (pandas, numpy)
+- ✅ **Easy deployment** with Docker
 
-### Infrastructure
-- **PostgreSQL** primary database
-- **Redis** caching layer
-- **Docker** containerization
-- **Kubernetes** orchestration
-- **AWS/Azure** cloud deployment
+**Why TensorFlow?**
+- ✅ **Industry standard** for deep learning
+- ✅ **Production-ready** with proven scalability
+- ✅ **GPU acceleration** for model training
+- ✅ **Mobile deployment** for edge inference
+- ✅ **Extensive pre-trained models** for fraud detection
 
-### APIs & Integrations
-- **OpenWeatherMap** - Weather data
-- **IMD Weather API** - Indian weather
-- **NewsAPI.org** - Curfew/strike alerts
-- **Google Maps API** - Geotagging validation
-- **Razorpay** - Payment processing
-- **Twilio** - SMS notifications
-- **Nodemailer** - Email services
+**Why FastAPI?**
+- ✅ **Automatic API documentation** with OpenAPI
+- ✅ **Type hints** for better IDE support
+- ✅ **High performance** async/await support
+- ✅ **Easy integration** with React frontend
+- ✅ **Built-in validation** and serialization
 
 ---
 
-## 📁 Project Structure
+## 📁 Phase 1 Project Structure
 
 ```
 kavach-platform/
@@ -202,29 +231,14 @@ kavach-platform/
 ├── backend/                  # Node.js Express backend
 │   ├── src/
 │   │   ├── controllers/     # Route controllers
-│   │   │   ├── authController.ts
-│   │   │   ├── claimController.ts
-│   │   │   └── weatherController.ts
 │   │   ├── models/          # Data models
 │   │   ├── services/        # Business logic
-│   │   │   ├── smsService.ts
-│   │   │   ├── emailService.ts
-│   │   │   └── fraudDetectionService.ts
 │   │   ├── middleware/      # Express middleware
-│   │   │   ├── authMiddleware.ts
-│   │   │   ├── rateLimiter.ts
-│   │   │   └── errorHandler.ts
 │   │   ├── routes/          # API routes
-│   │   │   └── authRoutes.ts
 │   │   ├── websocket/       # WebSocket handlers
-│   │   │   └── handlers.ts
 │   │   ├── config/          # Configuration files
-│   │   │   ├── database.ts
-│   │   │   ├── redis.ts
-│   │   │   └── logger.ts
 │   │   └── jobs/            # Background jobs
 │   ├── prisma/              # Database schema
-│   │   └── schema.prisma
 │   ├── package.json
 │   └── .env.example
 ├── ai-ml-service/           # Python AI/ML service
@@ -242,9 +256,6 @@ kavach-platform/
 │   ├── terraform/           # Infrastructure as code
 │   └── monitoring/          # Monitoring setup
 ├── docs/                    # Documentation
-│   ├── api/                 # API docs
-│   ├── architecture/        # Architecture docs
-│   ├── deployment/          # Deployment guides
 │   └── deployment/
 │       └── deployment-guide.md
 ├── docker-compose.yml       # Full stack deployment
@@ -254,7 +265,7 @@ kavach-platform/
 
 ---
 
-## 🔄 Complete Workflow
+## 🔄 Phase 1 Workflow
 
 ```mermaid
 graph TD
@@ -276,7 +287,120 @@ graph TD
 
 ---
 
-## 🛠️ Installation & Setup
+## 📊 Database Schema
+
+The platform uses a comprehensive PostgreSQL schema with the following key entities:
+
+- **Users**: Delivery partners with verification status
+- **Claims**: Parametric insurance claims with AI verification
+- **Premiums**: Weekly premium calculations and payments
+- **WeatherEvents**: Real-time weather monitoring data
+- **FraudAlerts**: AI-detected fraud patterns
+- **Partners**: E-commerce company integrations
+
+---
+
+## 🔌 Phase 1 API Endpoints
+
+### Authentication
+```typescript
+POST /api/auth/login          # User login with phone/OTP
+POST /api/auth/signup         # New user registration
+POST /api/auth/verify-otp      # OTP verification
+POST /api/auth/refresh         # JWT token refresh
+```
+
+### Claims
+```typescript
+GET /api/claims              # List user claims
+GET /api/claims/:id          # Get claim details
+POST /api/claims/trigger     # Manual trigger (admin)
+GET /api/claims/stats        # Claim statistics
+```
+
+### Weather Monitoring
+```typescript
+GET /api/weather/current     # Current weather data
+GET /api/weather/forecast    # Weather forecast
+POST /api/weather/trigger    # Manual weather trigger
+```
+
+### Admin
+```typescript
+GET /api/admin/fraud-alerts  # Fraud detection alerts
+GET /api/admin/analytics     # Dashboard analytics
+POST /api/admin/triggers     # Create manual triggers
+```
+
+---
+
+## 🤖 Phase 1 AI/ML Models
+
+### Risk Prediction Model
+- **Features**: Location history, weather patterns, delivery frequency
+- **Algorithm**: XGBoost with time-series features
+- **Output**: Risk score (0-1) for premium calculation
+- **Training Data**: Historical claims and weather data
+
+### Fraud Detection Model
+- **Features**: GPS patterns, claim timing, image metadata
+- **Algorithm**: Deep learning with anomaly detection
+- **Output**: Fraud probability and confidence score
+- **Training Data**: Verified claims vs. fraudulent attempts
+
+### Weather Prediction
+- **Features**: Historical weather, seasonal patterns
+- **Algorithm**: Prophet time-series forecasting
+- **Output**: 7-day weather disruption probability
+- **Data Sources**: OpenWeatherMap, IMD APIs
+
+---
+
+## 🔒 Phase 1 Security Features
+
+### Multi-Layer Authentication
+- **JWT Tokens**: Secure token-based authentication
+- **Phone Verification**: OTP-based user verification
+- **Biometric**: Digital signature with voice/facial recognition
+- **Role-Based Access**: Admin, partner, user role separation
+
+### Fraud Prevention
+- **GPS Validation**: Location spoofing detection
+- **Image Verification**: EXIF data and editing detection
+- **Pattern Analysis**: AI-powered anomaly detection
+- **Network Analysis**: Organized fraud detection
+
+### Data Protection
+- **Encryption**: End-to-end data encryption
+- **GDPR Compliance**: User data privacy controls
+- **Audit Logs**: Complete activity tracking
+- **Rate Limiting**: API abuse prevention
+
+---
+
+## 📈 Market Opportunity
+
+### Target Market
+- **10+ million** e-commerce delivery partners in India
+- **₹3,000-10,000** weekly income per partner
+- **Growing 35% YoY** with e-commerce boom
+
+### Revenue Projections
+```
+Year 1: 50,000 workers × ₹400 avg premium = ₹2.4CR revenue
+Year 2: 200,000 workers × ₹400 avg premium = ₹9.6CR revenue
+Year 3: 500,000 workers × ₹400 avg premium = ₹24CR revenue
+```
+
+### Competitive Advantage
+- **First-mover advantage** in delivery partner insurance
+- **AI-powered automation** vs manual competitors
+- **Parametric model** vs traditional claims process
+- **Mobile-first** approach for target demographic
+
+---
+
+## 🛠️ Phase 1 Installation & Setup
 
 ### Prerequisites
 - Node.js 18+
@@ -339,205 +463,28 @@ cd ai-ml-service && python -m uvicorn src.main:app --reload
 
 ---
 
-## 📊 Database Schema
+## 🎯 Phase 1 Development Roadmap
 
-The platform uses a comprehensive PostgreSQL schema with the following key entities:
-
-- **Users**: Delivery partners with verification status
-- **Claims**: Parametric insurance claims with AI verification
-- **Premiums**: Weekly premium calculations and payments
-- **WeatherEvents**: Real-time weather monitoring data
-- **FraudAlerts**: AI-detected fraud patterns
-- **Partners**: E-commerce company integrations
-
-[View complete schema](backend/prisma/schema.prisma)
-
----
-
-## 🔌 API Documentation
-
-### Authentication
-```typescript
-POST /api/auth/login
-POST /api/auth/signup
-POST /api/auth/verify-otp
-POST /api/auth/refresh
-```
-
-### Claims
-```typescript
-GET /api/claims              # List user claims
-GET /api/claims/:id          # Get claim details
-POST /api/claims/trigger     # Manual trigger (admin)
-GET /api/claims/stats        # Claim statistics
-```
-
-### Weather Monitoring
-```typescript
-GET /api/weather/current     # Current weather
-GET /api/weather/forecast    # Weather forecast
-POST /api/weather/trigger    # Manual weather trigger
-```
-
-### Admin
-```typescript
-GET /api/admin/fraud-alerts  # Fraud detection alerts
-GET /api/admin/analytics     # Dashboard analytics
-POST /api/admin/triggers     # Create manual triggers
-```
-
----
-
-## 🤖 AI/ML Models
-
-### Risk Prediction Model
-- **Features**: Location history, weather patterns, delivery frequency
-- **Algorithm**: XGBoost with time-series features
-- **Output**: Risk score (0-1) for premium calculation
-
-### Fraud Detection Model
-- **Features**: GPS patterns, claim timing, image metadata
-- **Algorithm**: Deep learning with anomaly detection
-- **Output**: Fraud probability and confidence score
-
-### Weather Prediction
-- **Features**: Historical weather, seasonal patterns
-- **Algorithm**: Prophet time-series forecasting
-- **Output**: 7-day weather disruption probability
-
----
-
-## 🔒 Security Features
-
-### Multi-Layer Authentication
-- **JWT Tokens**: Secure token-based authentication
-- **Phone Verification**: OTP-based user verification
-- **Biometric**: Digital signature with voice/facial recognition
-- **Role-Based Access**: Admin, partner, user role separation
-
-### Fraud Prevention
-- **GPS Validation**: Location spoofing detection
-- **Image Verification**: EXIF data and editing detection
-- **Pattern Analysis**: AI-powered anomaly detection
-- **Network Analysis**: Organized fraud detection
-
-### Data Protection
-- **Encryption**: End-to-end data encryption
-- **GDPR Compliance**: User data privacy controls
-- **Audit Logs**: Complete activity tracking
-- **Rate Limiting**: API abuse prevention
-
----
-
-## 📈 Market Opportunity
-
-### Target Market
-- **10+ million** e-commerce delivery partners in India
-- **₹3,000-10,000** weekly income per partner
-- **Growing 35% YoY** with e-commerce boom
-
-### Revenue Projections
-```
-Year 1: 50,000 workers × ₹400 avg premium = ₹2.4CR revenue
-Year 2: 200,000 workers × ₹400 avg premium = ₹9.6CR revenue
-Year 3: 500,000 workers × ₹400 avg premium = ₹24CR revenue
-```
-
-### Competitive Advantage
-- **First-mover advantage** in delivery partner insurance
-- **AI-powered automation** vs manual competitors
-- **Parametric model** vs traditional claims process
-- **Mobile-first** approach for target demographic
-
----
-
-## 📈 Performance & Scalability
-
-### Optimization
-- **Redis Caching**: Frequently accessed data cached
-- **Database Indexing**: Optimized query performance
-- **CDN Integration**: Static asset delivery
-- **Load Balancing**: Horizontal scaling support
-
-### Monitoring
-- **Application Metrics**: Real-time performance monitoring
-- **Error Tracking**: Comprehensive error logging
-- **Health Checks**: Service availability monitoring
-- **Alert System**: Automated incident alerts
-
----
-
-## 🚀 Deployment
-
-### Production Deployment
-
-1. **Infrastructure Setup**
-```bash
-cd infrastructure/terraform
-terraform apply
-```
-
-2. **Kubernetes Deployment**
-```bash
-cd infrastructure/kubernetes
-kubectl apply -f .
-```
-
-3. **Monitoring Setup**
-```bash
-cd infrastructure/monitoring
-docker-compose up -d
-```
-
-### Environment Variables
-See [backend/.env.example](backend/.env.example) for complete configuration.
-
----
-
-## 🧪 Testing
-
-### Backend Tests
-```bash
-cd backend
-npm test                # Unit tests
-npm run test:integration # Integration tests
-npm run test:e2e       # End-to-end tests
-```
-
-### Frontend Tests
-```bash
-cd frontend
-npm test               # Jest unit tests
-npm run test:cypress   # E2E tests
-```
-
-### AI/ML Tests
-```bash
-cd ai-ml-service
-python -m pytest      # Python unit tests
-```
-
----
-
-## 🎯 Development Roadmap
-
-### Phase 1: MVP (Weeks 1-4)
-- ✅ Android app with core features
+### ✅ Week 1-2: Core Foundation
+- ✅ Project setup and architecture
+- ✅ Database schema design
+- ✅ Basic authentication system
 - ✅ Weather API integration
+- ✅ Frontend UI components
+
+### ✅ Week 3-4: MVP Features
+- ✅ Claim processing system
 - ✅ Basic fraud detection
-- ✅ UPI simulation for payouts
+- ✅ Mobile-responsive design
+- ✅ UPI integration simulation
+- ✅ Real-time notifications
 
-### Phase 2: Expansion (Weeks 5-6)
-- ✅ iOS app development
-- ✅ Advanced AI models
-- ✅ Platform API integrations
-- ✅ Analytics dashboard
-
-### Phase 3: Scale (Post-Hackathon)
-- 🔄 Multi-city expansion
-- 🔄 Additional insurance products
-- 🔄 B2B partnerships with platforms
-- 🔄 International markets
+### 🔄 Week 5-6: Advanced Features
+- 🔄 AI-powered risk assessment
+- 🔄 Advanced fraud detection
+- 🔄 Platform integrations
+- 🔄 Analytics dashboard
+- 🔄 Performance optimization
 
 ---
 
@@ -571,20 +518,20 @@ python -m pytest      # Python unit tests
 - Insurance penetration increasing in India
 - Digital payments infrastructure mature
 
-### 5. **Production-Ready Solution**
-- Complete technical implementation
-- Comprehensive documentation
-- Scalable architecture design
+### 5. **Hackathon-Ready MVP**
+- Feasible 6-week development timeline
+- Clear technical milestones
+- Demo-ready product with real impact
 
 ---
 
 ## 📚 Documentation
 
-- [API Documentation](docs/api/)
-- [Architecture Guide](docs/architecture/)
 - [Deployment Guide](docs/deployment/deployment-guide.md)
-- [User Manual](docs/user-guide/)
-- [Contributing Guide](docs/contributing/)
+- [API Documentation](docs/api/) - Coming Soon
+- [Architecture Guide](docs/architecture/) - Coming Soon
+- [User Manual](docs/user-guide/) - Coming Soon
+- [Contributing Guide](docs/contributing/) - Coming Soon
 
 ---
 
