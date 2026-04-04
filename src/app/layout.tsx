@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   title: 'KavachPay AI | Gig Economy Insurance',
   description: 'AI-powered parametric income protection for India\'s gig economy.',
   icons: {
-    icon: '/images/kavach logo.png',
-    shortcut: '/images/kavach logo.png',
-    apple: '/images/kavach logo.png',
+    icon: '/images/kavach-logo.png',
+    shortcut: '/images/kavach-logo.png',
+    apple: '/images/kavach-logo.png',
   },
 };
 
