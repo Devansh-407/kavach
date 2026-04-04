@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Parametric-AI%20Insurance-8B5CF6?style=for-the-badge" alt="Parametric AI Insurance" />
 </p>
 
-<h1 align="center">🛡️ KavachPay AI</h1>
+<h1 align="center">🛡️ Kavach </h1>
 <p align="center">
   <strong>When the storm hits, your income shouldn't stop.</strong><br/>
   <em>AI-powered parametric protection for India's gig workers.</em>
@@ -165,11 +165,6 @@ npm run dev
 
 ---
 
-## 📜 License
-
-MIT — see [LICENSE](LICENSE).
-
----
 
 <p align="center">
   <i>Built for the riders who keep India moving.</i><br/>
