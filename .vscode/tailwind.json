@@ -1,0 +1,105 @@
+{
+  "version": 1.1,
+  "atDirectives": [
+    {
+      "name": "@tailwind",
+      "description": "Injects Tailwind's base, components, utilities, or variants styles.",
+      "references": [
+        {
+          "name": "Tailwind CSS Documentation",
+          "url": "https://tailwindcss.com/docs/functions-and-directives/#tailwind"
+        }
+      ]
+    },
+    {
+      "name": "@apply",
+      "description": "Applies existing utility classes to custom CSS.",
+      "references": [
+        {
+          "name": "Tailwind CSS Documentation", 
+          "url": "https://tailwindcss.com/docs/functions-and-directives/#apply"
+        }
+      ]
+    },
+    {
+      "name": "@layer",
+      "description": "Defines custom CSS layers for organizing styles.",
+      "references": [
+        {
+          "name": "Tailwind CSS Documentation",
+          "url": "https://tailwindcss.com/docs/functions-and-directives/#layer"
+        }
+      ]
+    },
+    {
+      "name": "@config",
+      "description": "Specifies which Tailwind config file to use.",
+      "references": [
+        {
+          "name": "Tailwind CSS Documentation",
+          "url": "https://tailwindcss.com/docs/functions-and-directives/#config"
+        }
+      ]
+    },
+    {
+      "name": "@variants",
+      "description": "Adds new variants to your CSS.",
+      "references": [
+        {
+          "name": "Tailwind CSS Documentation",
+          "url": "https://tailwindcss.com/docs/functions-and-directives/#variants"
+        }
+      ]
+    },
+    {
+      "name": "@responsive",
+      "description": "Wraps CSS in responsive variants.",
+      "references": [
+        {
+          "name": "Tailwind CSS Documentation",
+          "url": "https://tailwindcss.com/docs/functions-and-directives/#responsive"
+        }
+      ]
+    },
+    {
+      "name": "@keyframes",
+      "description": "Defines CSS keyframe animations.",
+      "references": [
+        {
+          "name": "MDN Documentation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "@tailwind",
+      "description": "Tailwind CSS directive"
+    },
+    {
+      "name": "@apply",
+      "description": "Tailwind CSS apply directive"
+    },
+    {
+      "name": "@layer",
+      "description": "Tailwind CSS layer directive"
+    },
+    {
+      "name": "@config",
+      "description": "Tailwind CSS config directive"
+    },
+    {
+      "name": "@variants",
+      "description": "Tailwind CSS variants directive"
+    },
+    {
+      "name": "@responsive",
+      "description": "Tailwind CSS responsive directive"
+    },
+    {
+      "name": "@keyframes",
+      "description": "CSS keyframes directive"
+    }
+  ]
+}
