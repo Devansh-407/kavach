@@ -166,7 +166,4 @@ npm run dev
 ---
 
 
-<p align="center">
-  <i>Built for the riders who keep India moving.</i><br/>
-  <b>KavachPay — Protection that works as hard as you do.</b>
-</p>
+
