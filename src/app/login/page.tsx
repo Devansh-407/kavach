@@ -127,7 +127,7 @@ export default function LoginPage() {
         <div className="text-center space-y-4">
           <Link href="/" className="inline-flex items-center gap-3 group transition-all">
             <div className="bg-primary p-2.5 rounded-2xl shadow-xl group-hover:scale-110 transition-transform">
-              <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={32} height={32} className="rounded-lg" />
+              <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={32} height={32} className="rounded-lg" />
             </div>
             <span className="text-3xl font-black text-primary font-headline tracking-tighter">KavachPay AI</span>
           </Link>

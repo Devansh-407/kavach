@@ -86,7 +86,7 @@ export default function Home() {
                   <div className="relative group perspective-1000">
                     <div className="relative aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-[0_30px_60px_-15px_rgba(12,161,150,0.15)] border-[8px] border-[#0CA196]/30 bg-white">
                       <Image 
-                        src="/images/kavach logo.png" 
+                        src="/images/kavach-logo.png" 
                         alt="KavachAI Logo" 
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-1000"
@@ -234,7 +234,7 @@ export default function Home() {
             <div className="col-span-2 space-y-6">
               <Link className="flex items-center gap-2" href="/">
                 <div className="bg-gradient-to-br from-[#0CA196] to-[#6EAC80] p-1.5 rounded-lg shadow-md">
-                  <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={20} height={20} className="rounded-lg" />
+                  <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={20} height={20} className="rounded-lg" />
                 </div>
                 <span className="text-xl font-black text-[#003E44] dark:text-white font-headline tracking-tighter">KavachAI</span>
               </Link>

@@ -592,7 +592,7 @@ export default function OnboardingPage() {
                     {isCreatingPolicy ? (
                       <><Loader2 className="h-4 w-4 animate-spin" /> Creating Policy...</>
                     ) : (
-                      <><Image src="/images/kavach logo.png" alt="KavachAI Logo" width={16} height={16} className="rounded-lg" /> Activate My Policy</>
+                      <><Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={16} height={16} className="rounded-lg" /> Activate My Policy</>
                     )}
                   </Button>
                 </div>

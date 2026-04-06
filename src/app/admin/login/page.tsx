@@ -68,7 +68,7 @@ export default function AdminLoginPage() {
         <div className="text-center space-y-3">
           <Link href="/" className="inline-flex items-center gap-3 group">
             <div className="bg-white/10 backdrop-blur-xl p-3 rounded-2xl shadow-2xl border border-white/20 group-hover:scale-110 transition-transform">
-              <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={40} height={40} className="rounded-lg" />
+              <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={40} height={40} className="rounded-lg" />
             </div>
           </Link>
           <div>
@@ -133,7 +133,7 @@ export default function AdminLoginPage() {
               ) : (
                 <div className="space-y-4 animate-in slide-in-from-right duration-500">
                   <div className="p-4 bg-primary/20 border border-primary/30 rounded-2xl flex items-center gap-3">
-                    <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={24} height={24} className="rounded-lg" />
+                    <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={24} height={24} className="rounded-lg" />
                     <div>
                       <p className="text-sm font-bold text-white">Security PIN Required</p>
                       <p className="text-[10px] text-white/50 uppercase tracking-widest">Two-Step Verification Active</p>
@@ -142,7 +142,7 @@ export default function AdminLoginPage() {
                   <div className="space-y-2">
                     <Label htmlFor="admin-pin" className="text-sm font-bold text-white/70">6-Digit PIN</Label>
                     <div className="relative">
-                      <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={16} height={16} className="rounded-lg" />
+                      <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={16} height={16} className="rounded-lg" />
                       <Input
                         id="admin-pin"
                         type="password"
@@ -174,7 +174,7 @@ export default function AdminLoginPage() {
                 {isLoading ? (
                   <><Loader2 className="h-4 w-4 animate-spin" /> Authenticating...</>
                 ) : (
-                  requirePin ? <><Image src="/images/kavach logo.png" alt="KavachAI Logo" width={16} height={16} className="rounded-lg" /> Verify & Access</> : <><LogIn className="h-4 w-4" /> Access Dashboard</>
+                  requirePin ? <><Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={16} height={16} className="rounded-lg" /> Verify & Access</> : <><LogIn className="h-4 w-4" /> Access Dashboard</>
                 )}
               </Button>
             </form>

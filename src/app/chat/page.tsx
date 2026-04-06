@@ -68,7 +68,7 @@ export default function ChatPage() {
           </Button>
           <div className="flex items-center gap-2">
             <div className="bg-primary p-1.5 rounded-lg">
-              <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={20} height={20} className="rounded-lg" />
+              <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={20} height={20} className="rounded-lg" />
             </div>
             <h1 className="text-xl font-bold font-headline">KavachPay AI Support</h1>
           </div>

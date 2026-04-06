@@ -118,7 +118,7 @@ export default function DashboardPage() {
         <Card className="max-w-md shadow-2xl border-none text-center bg-white/80 dark:bg-black/40 backdrop-blur-2xl rounded-[2rem]">
           <CardContent className="pt-10 pb-8 space-y-6">
             <div className="h-16 w-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-              <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={32} height={32} className="rounded-lg" />
+              <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={32} height={32} className="rounded-lg" />
             </div>
             <div className="space-y-2">
               <h2 className="text-2xl font-black font-headline tracking-tight">Setup Incomplete</h2>
@@ -158,7 +158,7 @@ export default function DashboardPage() {
       <header className="px-6 lg:px-12 h-16 flex items-center justify-between border-b border-[#0CA196]/20 bg-white/80 dark:bg-[#0F172A]/80 backdrop-blur-xl sticky top-0 z-50">
         <Link className="flex items-center gap-3 group transition-all" href="/">
           <div className="bg-gradient-to-br from-[#0CA196] to-[#6EAC80] p-2 rounded-xl shadow-lg group-hover:scale-110 transition-transform">
-            <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={24} height={24} className="rounded-lg" />
+            <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={24} height={24} className="rounded-lg" />
           </div>
           <span className="text-xl font-black text-[#003E44] dark:text-white font-headline tracking-tighter">KavachPay AI</span>
         </Link>
@@ -192,7 +192,7 @@ export default function DashboardPage() {
             <div className="h-1 bg-gradient-to-r from-[#0CA196] to-[#6EAC80]"></div>
             <CardContent className="pt-6 pb-6 text-center">
               <div className="w-12 h-12 bg-[#0CA196]/10 rounded-2xl flex items-center justify-center mx-auto mb-3">
-                <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={28} height={28} className="rounded-lg" />
+                <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={28} height={28} className="rounded-lg" />
               </div>
               <p className="text-2xl font-black text-[#0CA196]">{policy?.status || 'Active'}</p>
               <p className="text-xs text-[#003E44]/60 dark:text-white/60 font-black uppercase tracking-widest mt-2">Status</p>
@@ -236,7 +236,7 @@ export default function DashboardPage() {
             <div className="bg-gradient-to-r from-[#0CA196] to-[#6EAC80] text-white p-8 flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="bg-white/20 p-4 rounded-2xl backdrop-blur-xl">
-                  <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={40} height={40} className="rounded-lg" />
+                  <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={40} height={40} className="rounded-lg" />
                 </div>
                 <div>
                   <p className="text-xs text-white/80 font-bold uppercase tracking-widest">Active Policy ID</p>
@@ -373,7 +373,7 @@ export default function DashboardPage() {
           <Button variant="outline" asChild className="h-24 rounded-2xl justify-start gap-4 px-6 shadow-lg border-[#0CA196]/20 bg-white dark:bg-[#1E293B] hover:bg-[#0CA196]/5 transition-all group hover:scale-105">
             <Link href="/policy">
               <div className="p-3 rounded-xl bg-gradient-to-br from-[#0CA196]/20 to-[#6EAC80]/20 text-[#0CA196] group-hover:scale-110 transition-transform">
-                <Image src="/images/kavach logo.png" alt="KavachAI Logo" width={28} height={28} className="rounded-lg" />
+                <Image src="/images/kavach-logo.png" alt="KavachAI Logo" width={28} height={28} className="rounded-lg" />
               </div>
               <div className="text-left">
                 <p className="font-black text-sm tracking-tight text-[#003E44] dark:text-white">My Policy</p>
